@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #808080;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.bg-dark {
+  background-color: #2E4A62 !important;
+}
+
+body {           /* Dark gray */
+  font-family: "Times New Roman", "Arial", sans-serif;
+}
+
+.content-container {
+  background-color: #F6EAD1;
+  flex-wrap: wrap;
+}
+
+.header {
+  text-align: center;
+  color: #868583;
+  padding: 20px 40px;
+}
+
+.header1 {
+  display: flex;
+  justify-content: center;
+  border: 5px double #333;
+  color: #868583;
+  padding: 10px 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width:600px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photos-container {
+  color: #A9A9A9;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-around;    /* Add this */
+  flex-wrap: wrap;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+}
+
+.photos-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.word {
+  color: #868583;
+  margin-left: 50px;
+}
+
+.footer{
+  text-align:center;
+  padding: 40px 0 20px 0;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}

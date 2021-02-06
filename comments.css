@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #808080;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+/* Menu */
+.bg-dark {
+  background-color: #2E4A62 !important;
+}
+
+body {           /* Dark gray */
+  font-family: "Times New Roman", "Arial", sans-serif;
+}
+
+.content-container {
+  background-color: #F6EAD1;
+  flex-wrap: wrap;
+}
+
+.comment-container {
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+  flex-wrap: wrap;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  border: 5px double #333;
+  margin-right: 100px;
+}
+
+.review {
+  width: 500px;
+  margin-left: 100px;
+  padding: 20px 0 0 0;
+  color: #868583;
+  font-size: 20px;
+}
+
+.footer{
+  text-align:center;
+  padding: 40px 0 20px 0;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 414px) {
+  .picture {
+    margin-left: 90px;
+  }
+
+  .review {
+    padding: 20px 10px 0 0;
+    margin-left: 0px;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 415px) and (max-width: 960px) {
+  .picture {
+    margin-left: 110px;
+  }
+
+  .review {
+    padding: 20px 10px 0 0;
+    margin-left: 0px;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+}
